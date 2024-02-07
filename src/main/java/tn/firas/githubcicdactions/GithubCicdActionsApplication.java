@@ -12,7 +12,7 @@ public class GithubCicdActionsApplication {
 
     @GetMapping("/welcome")
     public String welcome(){
-        return "Welcome to Spring Boot";
+        return "This is CI/CD pipeline using Github Actions";
     }
 
     public static void main(String[] args) {
